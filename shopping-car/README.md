@@ -1,2 +1,2 @@
-1.npm install
-2.npm run serve
+- npm install
+- npm run serve
