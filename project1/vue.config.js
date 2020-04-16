@@ -62,6 +62,13 @@ module.exports = {
         app.get('/api/userinfo', auth, function(req, res) {
           res.json({ code: 200, data: { name: 'tom', age: 20} })
         });
+      },
+
+      // proxy: {
+      //   '/api': {
+      //     target: 'http://127.0.0.1:3000/',
+      //     changeOrigin: true
+      //   }
       }
     }
   }
