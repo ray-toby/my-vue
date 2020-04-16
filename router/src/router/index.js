@@ -17,7 +17,6 @@ const routes = [
     component: Home,
     //页面守卫
     beforeEnter: (to, from, next) => {
-      console.log(to, from);
       next();
     }
   },
