@@ -71,7 +71,7 @@ export default {
   },
   data() {
     return {
-      title: '开课吧-购物车1',
+      title: '购物车1',
       courseInfo: {
         name: '',
         price: ''
