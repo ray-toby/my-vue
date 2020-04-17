@@ -42,7 +42,9 @@ router.beforeEach((to, from, next) => {
     //需要登录
     const token = localStorage.getItem('token');
     if(token) {
+
       next()
+      
     }else {
       next({
         path: '/login',
